@@ -1,0 +1,40 @@
+import jieba
+from collections import Counter
+from  wordcloud import WordCloud
+from matplotlib import pyplot as plt
+from PIL import Image#导入图片处理库
+import numpy as np
+
+#读取文件
+with open('水浒传.txt','r',encoding = 'utf-8') as f:
+    article=f.read()
+#分词
+words = jieba.cut(article)
+c = Counter(words).most_common(100)
+listS = []
+for x in c:
+    if len(x[0]) >= 2 and x[0] not in ["　", "Page", "、", "\n", "『", "』", "；", "；", "“", "”", "！",
+                                       "？", "」", "「", "，", "。", "-", "：", " ", "的", "了"]:
+        listS.append(x[0])
+
+listStr = "/".join(listS)  # 使用/连接
+#处理背景图片
+image1 = Image.open("2.png")
+image2 = np.array(image1)#将图片变成矩阵
+
+#绘制词云
+wc=WordCloud(background_color="white",#背景色
+             mask=image2,
+             max_words=100,#最多词数
+             font_path="C:\Windows\Fonts\simfang.ttf", #字体路径
+             max_font_size=50,#字体的最大值
+             random_state=30, #随机状况
+             margin=2)#词距离
+
+wc.generate(listStr) #对listStr生成词云
+plt.figure("wc")
+wc.to_file("wc1.png")#保存为图片
+wc.to_file("wc1.png")#保存为图片
+plt.imshow(wc)
+plt.axis("off")#关闭坐标系
+plt.show()

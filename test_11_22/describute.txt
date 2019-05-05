@@ -1,0 +1,6 @@
+matplotlib画图
+wordcloud画词云
+pip install matplotlib
+pip install wordcloud
+
+统计词频
