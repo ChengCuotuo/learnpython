@@ -5,9 +5,9 @@ date:20190415
 2.添加玩家的飞机
 3.自由移动
 4.发射子弹
-5.实现子弹检测
+5.添加糖果类，得到之后会加分
+6.生命类
 '''
-
 import pygame
 from sys import exit
 from pygame.locals import *
@@ -25,12 +25,16 @@ class Player(pygame.sprite.Sprite):
         self.rect.topleft = init_pos
         # 图片的坐标
         self.img_index = 0
+        #飞机被击中的图片
+        self.downimg_index = 0
         # 移动的速度
         self.speed = 8
         # 子弹集合
         self.bullets = pygame.sprite.Group()
-        #是否被击中
+        # 是否被击中
         self.is_hit = False
+        #添加生命
+        self.life = 3
 
     # 移动的操作函数
     # 向上运动
@@ -72,14 +76,13 @@ class Enemy(pygame.sprite.Sprite):
     def __init__(self, plane_img, init_pos, enemy_down_img):
         pygame.sprite.Sprite.__init__(self)
         self.image = plane_img
-        self.rect = pygame.Rect(0, 0, 100, 120)
+        self.rect = pygame.Rect(0, 0, 50, 34)
         self.rect.topleft = init_pos
         self.speed = 3
-        #敌机被击落的图片
+        # 敌机被击落的图片
         self.down_imgs = enemy_down_img
-        #动态图片的第几个
+        # 动态图片的第几个
         self.down_index = 0
-
 
     def move(self):
         self.rect.top += self.speed
@@ -105,20 +108,35 @@ class Bullet(pygame.sprite.Sprite):
     def move(self):
         self.rect.top -= self.speed
 
+#糖果类
+class Canay(pygame.sprite.Sprite):
+    def __init__(self, canay_img, init_pos, canay_speed):
+        pygame.sprite.Sprite.__init__(self)
+        self.image = canay_img
+        self.rect = pygame.Rect(0, 0, 100, 120)
+        self.rect.topleft = init_pos
+        self.speed = canay_speed
+        #得到糖果的分数
+        self.score = 10
+    #糖果掉落的动画
+    def move(self):
+        self.rect.top += self.speed
 
-#分数类，显示分数，色和之字体合字号
+
+# 分数类，显示分数，色和之字体合字号
 class Score():
     def __init__(self):
         self.score = 0
         self.score_font = pygame.font.Font(None, 36)
 
-    def addScore(self,es):
+    def addScore(self, es):
         self.score += es
 
     def showScore(self):
-        #将score渲染到屏幕，设置颜色 (255, 0, 0) 红色
+        # 将score渲染到屏幕，设置颜色 (255, 0, 0) 红色
         self.score_text = self.score_font.render(str(self.score), True, (255, 0, 0))
-        return  self.score_text
+        return self.score_text
+
 
 # 设置游戏屏幕的大小
 SCREEN_WIDTH = 480
@@ -153,31 +171,38 @@ e_img = pygame.image.load("resplane/image/eplane1.png")
 # 设置敌机图片的大小
 enemy_rect = pygame.Rect(0, 0, 50, 34)
 enemy1_img = e_img.subsurface(enemy_rect)
-#存储敌机
+# 存储敌机
 enemies1 = pygame.sprite.Group()
 
 # 敌机出现的频率
 enemy_frequency = 0
-#敌机击落的图片
+# 敌机击落的图片
 e_img1 = pygame.image.load("resplane/image/eplane1.png")
 e_img2 = pygame.image.load("resplane/image/eplane2.png")
 e_img3 = pygame.image.load("resplane/image/eplane3.png")
 e_img4 = pygame.image.load("resplane/image/eplane4.png")
-#敌机被击毁动画
+# 敌机被击毁动画
 enemy_rect = pygame.Rect(0, 0, 50, 34)
-enemy_down_imgs = [] #这是敌机爆炸效果动画
+enemy_down_imgs = []  # 这是敌机爆炸效果动画
 enemy_down_imgs.append(e_img1.subsurface(enemy_rect))
 enemy_down_imgs.append(e_img2.subsurface(enemy_rect))
 enemy_down_imgs.append(e_img3.subsurface(enemy_rect))
 enemy_down_imgs.append(e_img4.subsurface(enemy_rect))
-#存储被击落的敌机
+# 存储被击落的敌机
 enemies_down = pygame.sprite.Group()
+
+#糖果的图片
+canay_img = pygame.image.load("resplane/image/sugar.png")
+#存储糖果的组合
+canay_group = pygame.sprite.Group()
+canay_frequency = 0
+canay_rect = pygame.Rect(0, 0, 56, 107)
 
 # 飞机的初始位置
 player_pos = [200, 450]
 # 实例化玩家
 player = Player(plane_img, player_pos)
-#实例化分数类
+# 实例化分数类
 gamescore = Score()
 
 # 让飞机动起来
@@ -196,12 +221,11 @@ while running:
 
     # 绘制玩家飞机
     screen.blit(player.image[player.img_index], player.rect)
-    #当玩家被击中之后停止动画
+    # 当玩家被击中之后停止动画
     if player.is_hit:
         running = False
 
     player.img_index = shoot_frequency // 8
-
     shoot_frequency += 1
     if shoot_frequency >= 15:
         shoot_frequency = 0
@@ -228,33 +252,70 @@ while running:
     # 分别处理每个敌机
     for enemy in enemies1:
         enemy.move()
-        #判断敌机击中玩家
+        # 判断敌机击中玩家
         if pygame.sprite.collide_circle(enemy, player):
             enemies_down.add(enemy)
             enemies1.remove(enemy)
-            player.is_hit = True
-            break
-
+            player.life -= 1
+            if player.life == 0:
+                player.is_hit = True
 
         if enemy.rect.top < 0:
             enemies1.remove(enemy)
 
-    #被子弹击中的敌机效果处理
+    # 被子弹击中的敌机效果处理
     # 存放被子弹击中的敌机，组和组之间的碰撞
     enemies1_down = pygame.sprite.groupcollide(enemies1, player.bullets, 1, 1)
-    #处理碰撞敌机，存储
-    for enemy_down in enemies1_down :
+    # 处理碰撞敌机，存储
+    for enemy_down in enemies1_down:
         enemies_down.add(enemy_down)
 
-    #显示爆炸效果
+    # 显示爆炸效果
     for enemy_down in enemies_down:
         if enemy_down.down_index > 7:
             enemies_down.remove(enemy_down)
             gamescore.addScore(10)
             continue
-        #没有显示玩爆炸效果就继续显示爆炸动画的第几个图片
+        # 没有显示玩爆炸效果就继续显示爆炸动画的第几个图片
         screen.blit(enemy_down_imgs[enemy_down.down_index // 4], enemy_down.rect)
         enemy_down.down_index += 1
+
+    # 生成敌机
+    if enemy_frequency % 50 == 0:
+        enemy1_pos = [random.randint(0, SCREEN_WIDTH - enemy_rect.width), 0]
+        enemy1 = Enemy(enemy1_img, enemy1_pos, enemy_down_imgs)
+        enemies1.add(enemy1)
+    # 显示敌机
+    enemies1.draw(screen)
+    # 显示分数
+    screen.blit(gamescore.showScore(), [10, 10])
+
+    canay_frequency += 1
+
+    if canay_frequency >= 400:
+        canay_frequency = 0
+
+    # 分别处理每个糖果
+    for canay in canay_group:
+        canay.move()
+        # 判断玩家是否得到糖果
+        if pygame.sprite.collide_circle(canay, player):
+            canay_group.remove(canay)
+            gamescore.addScore(20)
+            continue #当前糖果处理结束继续处理其他的糖果
+        # 出屏幕的糖果要移出
+        if canay.rect.top < 0:
+            canay_group.remove(canay)
+
+    # 生成糖果
+    if canay_frequency % 400 == 0:
+        canay_pos = [random.randint(0, SCREEN_WIDTH - canay_rect.width), 0]
+        canay_speed = random.randint(1, 5)
+        canay = Canay(canay_img, canay_pos, canay_speed)
+        canay_group.add(canay)
+
+    # 显示糖果类
+    canay_group.draw(screen)
 
     # 获取键盘点击事件
     key_pressed = pygame.key.get_pressed()
@@ -276,16 +337,6 @@ while running:
     # 空格键发射子弹
     if key_pressed[K_SPACE]:
         player.shoot(bullet_img)
-
-    # 生成敌机
-    if enemy_frequency % 50 == 0:
-        enemy1_pos = [random.randint(0, SCREEN_WIDTH - enemy_rect.width), 0]
-        enemy1 = Enemy(enemy1_img, enemy1_pos, enemy_down_imgs)
-        enemies1.add(enemy1)
-    # 显示敌机
-    enemies1.draw(screen)
-    #显示分数
-    screen.blit(gamescore.showScore(), [10, 10])
 
     # 更新屏幕
     pygame.display.update()
