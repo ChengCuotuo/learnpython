@@ -12,7 +12,8 @@ func:planegame
 6.计算击毁敌机得分，分数出现在左上角
 7.敌机碰撞玩家飞机，玩家飞机爆炸，游戏结束
 8.随机出现糖果，从天而降，如果玩家飞机接到，就加分
-9.最后一步，玩家飞机3条命（未完待续）
+9.最后一步，玩家飞机3条命
+10.添加音效
 '''
 import pygame
 from sys import exit
@@ -119,22 +120,40 @@ SCREEN_WIDTH = 480
 SCREEN_HEIGHT = 700
 # 初始化 pygame，必须放在最前面
 pygame.init()
+#打开音效
+pygame.mixer.init()
+#添加音乐
+#击中敌机音乐
+enemymusic = pygame.mixer.Sound("resplane/sound/enemy1_down.wav")
+#发射子弹音乐
+shootmusic = pygame.mixer.Sound("resplane/sound/bullet.wav")
+#得到糖果的音乐
+#设置音量
+enemymusic.set_volume(0.1)
+shootmusic.set_volume(0.1)
+#背景音乐
+pygame.mixer.music.load("resplane/sound/game_music.wav")
+#开始播放
+pygame.mixer.music.play(-1, 0.0)
+#设置背景音乐的音量
+pygame.mixer.music.set_volume(0.05)
+
 # 设置游戏界面大小、背景图片及标题
 # 游戏界面像素大小
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 # 游戏界面标题
 pygame.display.set_caption('飞机大战')
 # 背景图
-background = pygame.image.load('D:/testpy/resplane/image/background.png').convert()
+background = pygame.image.load('resplane/image/background.png').convert()
 # Game Over的背景图
-game_over = pygame.image.load('D:/testpy/resplane/image/gameover.png')
+game_over = pygame.image.load('resplane/image/gameover.png')
 # 飞机图片集合
 # 设置玩家飞机不同状态的图片列表，多张图片展示为动画效果
-player_img1=pygame.image.load('D:/testpy/resplane/image/player1.png')#正常飞机状态
-player_img2=pygame.image.load('D:/testpy/resplane/image/player2.png')
-p_img1=pygame.image.load('D:/testpy/resplane/image/playerdown1.png')#飞机爆炸状态
-p_img2=pygame.image.load('D:/testpy/resplane/image/playerdown2.png')
-p_img3=pygame.image.load('D:/testpy/resplane/image/playerdown3.png')
+player_img1=pygame.image.load('resplane/image/player1.png')#正常飞机状态
+player_img2=pygame.image.load('resplane/image/player2.png')
+p_img1=pygame.image.load('resplane/image/playerdown1.png')#飞机爆炸状态
+p_img2=pygame.image.load('resplane/image/playerdown2.png')
+p_img3=pygame.image.load('resplane/image/playerdown3.png')
 plane_img =[]
 plane_img.append(player_img1.subsurface(pygame.Rect(0, 0, 102, 121)).convert_alpha())#正常飞机状态
 plane_img.append(player_img2.subsurface(pygame.Rect(0, 0, 102, 121)).convert_alpha())
@@ -143,14 +162,14 @@ plane_img.append(p_img2.subsurface(pygame.Rect(0, 0, 102, 123)).convert_alpha())
 plane_img.append(p_img3.subsurface(pygame.Rect(0, 0, 102, 123)).convert_alpha())
 player_pos = [200, 500]# 玩家飞机的初始位置
 # 子弹图片
-b_img=pygame.image.load('D:/testpy/resplane/image/playerbullet.png')
+b_img=pygame.image.load('resplane/image/playerbullet.png')
 bullet_rect = pygame.Rect(0, 0, 20, 25)
 bullet_img = b_img.subsurface(bullet_rect)
 # 敌机不同状态的图片列表，多张图片展示为动画效果
-e_img1=pygame.image.load('D:/testpy/resplane/image/eplane1.png')
-e_img2=pygame.image.load('D:/testpy/resplane/image/eplane2.png')
-e_img3=pygame.image.load('D:/testpy/resplane/image/eplane3.png')
-e_img4=pygame.image.load('D:/testpy/resplane/image/eplane4.png')
+e_img1=pygame.image.load('resplane/image/eplane1.png')
+e_img2=pygame.image.load('resplane/image/eplane2.png')
+e_img3=pygame.image.load('resplane/image/eplane3.png')
+e_img4=pygame.image.load('resplane/image/eplane4.png')
 enemy_rect = pygame.Rect(0, 0, 50, 34)
 enemy1_img = e_img1.subsurface(enemy_rect)
 enemy_down_imgs = []#这是敌机爆炸效果动画
@@ -163,7 +182,7 @@ enemies1 = pygame.sprite.Group()
 # 存储被击毁的敌机，用来渲染击毁动画
 enemies_down = pygame.sprite.Group()
 # 载入糖果图片
-c1_img=pygame.image.load('D:/testpy/resplane/image/sugar.png')
+c1_img=pygame.image.load('resplane/image/sugar.png')
 #存储多个糖果
 candies = pygame.sprite.Group()
 # 初始化射击及敌机和糖果出现频率
@@ -207,12 +226,12 @@ while running:
                 running = False
     # 2.2生成子弹，每循环15次，生成一个子弹
     # 首先判断玩家飞机没有被击中
-    if not player.is_hit:
-        if shoot_frequency % 15 == 0:
-            player.shoot(bullet_img)
-        shoot_frequency += 1
-        if shoot_frequency >= 15:
-            shoot_frequency = 0
+    # if not player.is_hit:
+    #     if shoot_frequency % 15 == 0:
+    #         player.shoot(bullet_img)
+    #     shoot_frequency += 1
+    #     if shoot_frequency >= 15:
+    #         shoot_frequency = 0
     # 对每个子弹做处理
     for bullet in player.bullets:
         # 以固定速度移动子弹
@@ -252,6 +271,8 @@ while running:
     for enemy_down in enemies_down:
         if enemy_down.down_index > 7:
             enemies_down.remove(enemy_down)
+            #击中敌机的音乐播放
+            enemymusic.play()
             gamescore.AddScore(100)#击中敌机加分100
             continue
         screen.blit(enemy_down.down_imgs[enemy_down.down_index // 4], enemy_down.rect)
@@ -296,6 +317,12 @@ while running:
         player.moveLeft()
     if key_pressed[K_d] or key_pressed[K_RIGHT]:
         player.moveRight()
+    # 空格键发射子弹
+    if key_pressed[K_SPACE]:
+        player.shoot(bullet_img)
+        #射击音乐播放
+        shootmusic.play()
+
     # 处理游戏退出
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
