@@ -2,6 +2,7 @@
 爬取拉钩网中的信息
 当前本机的 headers
 Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0
+使用 headers 模拟浏览器浏览，防止因识别为爬虫而拦截
 '''
 from urllib import request
 
