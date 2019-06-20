@@ -2,12 +2,466 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82875b59-b9da-407d-9953-0859860d95f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/游戏/20190506.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/KNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/游戏-贪吃蛇/game.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/游戏-贪吃蛇/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/游戏-贪吃蛇/img/point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/游戏-贪吃蛇/img/snake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/TaoBaoGoods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/qq空间/chromedriver.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/qq空间/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/qq空间/爬取空间说说.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learnpython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnpython.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20190415/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/20190415/QR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/游戏/游戏.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-11-itchat/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友性别分析/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-11-itchat/好友信息分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友性别分析/好友信息分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-11-itchat/好友性别.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友性别分析/好友性别.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-11-itchat/好友性别比例.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友性别分析/好友性别比例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-11-itchat/性别比例.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友性别分析/性别比例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/123.png" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/123.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/QR.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/sig.txt" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/sig.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/sign.png" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/sign.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/simfang.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/simfang.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-18/好友签名.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友签名分析/好友签名.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/all.png" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/friendsinchina.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/friendsinchina.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/10.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/10.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/101.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/101.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/102.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/102.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/103.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/103.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/104.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/104.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/105.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/105.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/106.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/106.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/107.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/107.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/108.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/108.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/109.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/109.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/11.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/11.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/110.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/110.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/112.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/112.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/113.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/113.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/114.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/114.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/115.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/115.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/116.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/116.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/117.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/117.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/12.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/12.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/13.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/13.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/14.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/14.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/15.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/15.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/16.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/16.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/17.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/17.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/18.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/18.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/19.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/19.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/20.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/20.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/21.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/21.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/22.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/22.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/23.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/23.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/24.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/24.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/25.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/25.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/26.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/26.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/27.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/27.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/28.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/28.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/29.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/29.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/30.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/30.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/31.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/31.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/32.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/32.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/33.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/33.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/34.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/34.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/35.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/35.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/36.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/36.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/37.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/37.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/38.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/38.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/39.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/39.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/40.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/40.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/41.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/41.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/42.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/42.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/43.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/43.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/44.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/44.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/45.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/45.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/46.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/46.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/47.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/47.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/48.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/48.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/49.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/49.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/50.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/50.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/51.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/51.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/52.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/52.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/53.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/53.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/54.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/54.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/55.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/55.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/56.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/56.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/57.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/57.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/58.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/58.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/59.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/59.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/60.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/60.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/61.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/61.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/62.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/62.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/63.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/63.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/64.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/64.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/65.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/65.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/66.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/66.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/67.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/67.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/68.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/68.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/69.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/69.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/70.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/71.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/71.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/72.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/72.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/73.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/73.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/74.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/74.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/75.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/75.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/76.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/76.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/77.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/77.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/78.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/78.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/79.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/79.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/80.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/80.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/81.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/81.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/82.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/82.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/83.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/83.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/84.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/84.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/85.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/85.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/86.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/86.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/87.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/87.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/88.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/88.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/89.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/89.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/90.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/90.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/91.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/91.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/92.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/92.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/93.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/93.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/94.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/94.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/95.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/96.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/96.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/97.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/97.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/98.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/98.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img/99.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img/99.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/img_file" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/img_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/provinces.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/provinces.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/provinces.txt" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/provinces.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/好友城市分布.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/好友城市分布.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/好友城市的分布柱状图.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/好友城市的分布柱状图.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/好友头像人像比例.html" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/好友头像人像比例.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/好友头像是否是人脸分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/好友头像是否是人脸分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-25/微信好友的信息分析.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像分析/微信好友的信息分析.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/dog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/dog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/dog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/dog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/haha.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/haha.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/向好友发送文件.py" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/向好友发送文件.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/向微信助手发你好.py" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/向微信助手发你好.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/向微信好友发消息.py" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/向微信好友发消息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019-3-4itchat/定点定人发消息.py" beforeDir="false" afterPath="$PROJECT_DIR$/向微信好友发送信息/定点定人发消息.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/只猪的照片.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/只猪的照片.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/大笑的孩子.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/大笑的孩子.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/奥黛丽赫本.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/奥黛丽赫本.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/带着帽子的.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/带着帽子的.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/微笑的孩子.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/微笑的孩子.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/戴着眼镜的.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/戴着眼镜的.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/美丽的风景.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/美丽的风景.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/美女的微笑.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/美女的微笑.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/胡歌的照片.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/胡歌的照片.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/自己的照片.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/自己的照片.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimage/马云在大笑.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimage/马云在大笑.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/(´O｀).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/(´O｀).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/510am.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/510am.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Alice的鲸.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Alice的鲸.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Best Express_Vip.Lee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Best Express_Vip.Lee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Best Express_VipLee.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Best Express_VipLee.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/H.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/H.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Imut.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Imut.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/King.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/King.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/L&amp;amp;S.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/L&amp;amp;S.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/LiuBo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/LiuBo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/NULL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/NULL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/QDNET！.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/QDNET！.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Ringo·Sun.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Ringo·Sun.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/S--丽丽.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/S--丽丽.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Sgamer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Sgamer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/W.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/W.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Wool.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Wool.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/ZAIMA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/ZAIMA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/anyhow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/anyhow.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/fairy🎈.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/fairy🎈.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/kawhi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/kawhi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/rose.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/rose.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/sweet.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/sweet.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/un coeur a l'envers.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/un coeur a l'envers.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/yzm小蹦蹬😊~.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/yzm小蹦蹬😊~.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/zcc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/zcc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Â 👾  ..jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Â 👾  ..jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/Â 👾  .jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/Â 👾  .jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/€.張....jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/€.張....jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/€張.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/€張.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/❇  蜡笔小新 ❇.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/❇  蜡笔小新 ❇.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/〒_〒.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/〒_〒.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/一见倾心.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/一见倾心.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/七分软萌.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/七分软萌.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/任你！.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/任你！.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/伊夏.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/伊夏.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/伊莎贝拉蝶.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/伊莎贝拉蝶.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/传义.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/传义.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/俊之假面士.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/俊之假面士.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/倩🐾.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/倩🐾.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/像向日葵一样.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/像向日葵一样.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/共勉.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/共勉.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/决明子.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/决明子.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/凉白开.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/凉白开.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/凌子雯.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/凌子雯.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/刘休想.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/刘休想.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/别说话。。。嘘.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/别说话。。。嘘.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/勿语°.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/勿语°.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/卍戒酒的李白卍.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/卍戒酒的李白卍.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/又蠢又呆萌的小新新.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/又蠢又呆萌的小新新.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/嘿嘿.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/嘿嘿.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/在路上.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/在路上.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/士博.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/士博.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/奇点.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/奇点.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/奔儿.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/奔儿.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/婷.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/婷.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/子龙.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/子龙.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/宋孝哲.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/宋孝哲.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/家园.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/家园.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/小冬.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/小冬.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/小臭臭👼.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/小臭臭👼.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/尾号9527🍻 🇩.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/尾号9527🍻 🇩.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/居麻.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/居麻.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/左.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/左.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/开心就好.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/开心就好.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/张振.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/张振.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/张清 18814664090.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/张清 18814664090.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/张福贵.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/张福贵.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/微笑呀.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/微笑呀.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/怿儿.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/怿儿.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/惊鸿.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/惊鸿.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/我想要两颗西柚.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/我想要两颗西柚.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/我是传奇.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/我是传奇.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/我是你楠神.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/我是你楠神.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/扣儿💋(支持花呗).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/扣儿💋(支持花呗).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/拾安.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/拾安.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/春风.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/春风.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/晓.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/晓.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/朱航.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/朱航.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/条条.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/条条.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/杨艳.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/杨艳.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/死地豪杰.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/死地豪杰.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/沉默的小伙伴.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/沉默的小伙伴.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/沙雕网友最快乐~.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/沙雕网友最快乐~.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/浪迹天涯.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/浪迹天涯.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/海岛有猫🐱.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/海岛有猫🐱.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/潘云超.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/潘云超.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/然.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/然.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/爱的华尔兹.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/爱的华尔兹.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/王诚民.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/王诚民.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/球.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/球.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/琪..jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/琪..jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/琪.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/琪.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/瑞梅同学.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/瑞梅同学.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/白芽灿灿🍀 🍀.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/白芽灿灿🍀 🍀.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/百事可爱。.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/百事可爱。.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/碾作尘.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/碾作尘.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/筱磊.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/筱磊.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/老爷子.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/老爷子.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/老郭.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/老郭.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/胡骞宇.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/胡骞宇.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/艾薇儿的冰红茶.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/艾薇儿的冰红茶.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/若风.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/若风.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/英琦.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/英琦.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/蓝桥.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/蓝桥.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/角落.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/角落.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/谜..jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/谜..jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/谜.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/谜.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/谢.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/谢.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/谨此而已.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/谨此而已.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/谷中风.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/谷中风.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/赵桐.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/赵桐.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/追忆.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/追忆.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/长发绾君心§.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/长发绾君心§.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/长街听风.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/长街听风.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/阳光.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/阳光.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/随穆.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/随穆.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/雨路.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/雨路.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/青春.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/青春.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/馒头.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/馒头.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/🌛.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/🌛.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/🌜.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/🌜.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/🌬.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/🌬.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/🍭.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/🍭.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/🐨.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/🐨.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/headimg/👧.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/headimg/👧.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/itchat.pkl" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/itchat.pkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/下载好友头像分析为人脸的颜值.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/下载好友头像分析为人脸的颜值.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190408/腾讯优图.py" beforeDir="false" afterPath="$PROJECT_DIR$/微信好友头像下载和人脸识别/腾讯优图.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/7.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/farmer walk.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/farmer walk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/food_low.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/food_low.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/font/font.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/font/font.fnt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/font/font.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/font/font.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/batman.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/batman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/batman1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/batman1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/batman2.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/batman2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/batman3.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/batman3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/batman4.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/batman4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/bg1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/bg1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/bg2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/bg2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/bg4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/bg4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/bg5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/bg5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/cap.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/cap.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/cap1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/cap1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/dollar.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/dollar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/gameover.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/gameover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/sman1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/sman1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/spiderman1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/spiderman1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/spiderman2.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/spiderman2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/spiderman3.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/spiderman3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/image/superman.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/superman.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/achievement.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/achievement.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/big_spaceship_flying.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/big_spaceship_flying.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/bullet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/bullet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/bullet.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/bullet.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/button.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/button.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy1_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy1_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy1_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy1_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy2_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy2_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy2_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy2_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy3_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy3_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/enemy3_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/enemy3_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/game_music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/game_music.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/game_music.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/game_music.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/game_over.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/game_over.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/game_over.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/game_over.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/get_bomb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/get_bomb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/get_double_laser.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/get_double_laser.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/out_porp.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/out_porp.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/resplane/sound/use_bomb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/sound/use_bomb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/zombie walk.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/zombie walk.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/僵尸移动.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/僵尸移动.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/农夫吃苹果.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/农夫吃苹果.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/农夫走动.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/农夫走动.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20190520/吃苹果血条改变.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/吃苹果血条改变.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/per.html" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/per.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/pername.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/pername.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/perpostion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/perpostion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/prepie.html" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/prepie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/psegshuihu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/psegshuihu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/test3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/userdic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/userdic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test11-29/水浒传.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析/水浒传.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/pername.html" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/pername.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/pername.png" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/pername.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/pername.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/pername.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/perpostion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/perpostion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/pie.png" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/pie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/prepie.html" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/prepie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/psegshuihu.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/psegshuihu.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/userdic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/userdic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/wc1.png" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/wc1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/zuoye.py" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/zuoye.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test12-1-final/水浒传.txt" beforeDir="false" afterPath="$PROJECT_DIR$/水浒传文本分析2/水浒传.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/10.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/20190429.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/20190429.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/20190506.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/20190506.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/20190513.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/20190513.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/3.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/4.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/5.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/6.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/7.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/8.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/9.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/9.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/font/font.fnt" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/font/font.fnt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/font/font.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/font/font.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0007020031445776_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0007020031445776_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0008118254365526_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0008118254365526_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0017029520946820_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0017029520946820_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0017029543705695_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0017029543705695_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0017030734161495_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0017030734161495_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/0022005274057522_b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/0022005274057522_b.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/13504103_162920830000_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/13504103_162920830000_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/16341703-bcae3d6e502a1e0080e9ad22d277bb53-0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/16341703-bcae3d6e502a1e0080e9ad22d277bb53-0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/264.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/264.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/7b7ba959e016bf00610ca18c1e415fe1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/7b7ba959e016bf00610ca18c1e415fe1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/W020140420645032076694.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/W020140420645032076694.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/eplane1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/eplane1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/eplane2.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/eplane2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/eplane3.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/eplane3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/eplane4.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/eplane4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/gameover.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/image/gameover.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/plane11.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/plane11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/plane12.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/plane12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/plane13.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/plane13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/planedown11.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/planedown11.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/planedown12.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/planedown12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/planedown13.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/planedown13.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/player1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/player1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/player2.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/player2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/playerbullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/playerbullet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/playerdown1.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/playerdown1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/playerdown2.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/playerdown2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/playerdown3.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/playerdown3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/shoot.pack" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/shoot.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/shoot.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/shoot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/shoot_background.pack" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/shoot_background.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/shoot_background.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/shoot_background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/sugar.png" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/sugar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (2).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (2).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (3).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (3).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (4).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (4).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (5).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (5).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg (6).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg (6).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/image/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/游戏-打飞机/resplane/image/timg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/achievement.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/achievement.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/big_spaceship_flying.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/big_spaceship_flying.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/bullet.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/bullet.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/bullet.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/bullet.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/button.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/button.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy1_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy1_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy1_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy1_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy2_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy2_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy2_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy2_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy3_down.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy3_down.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/enemy3_down.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/enemy3_down.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/game_music.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/game_music.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/game_music.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/game_music.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/game_over.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/game_over.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/game_over.wav" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/game_over.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/get_bomb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/get_bomb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/get_double_laser.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/get_double_laser.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/out_porp.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/out_porp.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏/resplane/sound/use_bomb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/游戏2/resplane/sound/use_bomb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/爬取大学排名.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/爬取大学排名.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫/爬取爱情公寓的评论.py" beforeDir="false" afterPath="$PROJECT_DIR$/爬虫/爬取爱情公寓的评论.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +469,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1188253250">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.opened" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="py" value="4930" />
+          <entry key="txt" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+          <entry key="Python" value="4930" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="png" value="3" />
+          <entry key="py" value="26" />
+          <entry key="txt" value="5" />
+          <entry key="爬虫介绍" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Image" value="3" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="26" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/游戏/game.py">
+        <entry file="file://$PROJECT_DIR$/爬虫/爬取大学排名.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3116">
-              <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
-              <folding>
-                <element signature="e#64#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/游戏/20190429.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="-374">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/游戏/20190506.py">
+        <entry file="file://$PROJECT_DIR$/爬虫/TaoBaoGoods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
+            <state relative-caret-position="412">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#69#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,14 +550,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/游戏/20190506.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/游戏/game.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/爬虫/TaoBaoGoods.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/游戏-贪吃蛇/game.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/游戏-打飞机/20190506.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/游戏-打飞机/game.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/爬虫/qq空间/爬取空间说说.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/机器学习/KNN.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/游戏/游戏.py" />
         <option value="$PROJECT_DIR$/游戏/20190506.py" />
+        <option value="$PROJECT_DIR$/向微信好友发送信息/向微信助手发你好.py" />
+        <option value="$PROJECT_DIR$/爬虫/qq空间.py" />
+        <option value="$PROJECT_DIR$/爬虫/qq空间/791381705.txt" />
+        <option value="$PROJECT_DIR$/爬虫/qq空间/1422247276.txt" />
+        <option value="$PROJECT_DIR$/爬虫/qq空间/user.txt" />
+        <option value="$PROJECT_DIR$/爬虫/qq空间/爬取空间说说.py" />
+        <option value="$PROJECT_DIR$/机器学习/KNN.py" />
+        <option value="$PROJECT_DIR$/游戏-打飞机/game.py" />
+        <option value="$PROJECT_DIR$/游戏-贪吃蛇/game.py" />
+        <option value="$PROJECT_DIR$/爬虫/爬取大学排名.py" />
+        <option value="$PROJECT_DIR$/爬虫/爬取爱情公寓的评论.py" />
+        <option value="$PROJECT_DIR$/爬虫/TaoBaoGoods.py" />
       </list>
     </option>
   </component>
@@ -76,6 +582,9 @@
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -92,20 +601,7 @@
             <path>
               <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnpython" type="462c0819:PsiDirectoryNode" />
-              <item name="游戏" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
-              <item name="游戏" type="462c0819:PsiDirectoryNode" />
-              <item name="resplane" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learnpython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="learnpython" type="462c0819:PsiDirectoryNode" />
-              <item name="游戏" type="462c0819:PsiDirectoryNode" />
-              <item name="resplane" type="462c0819:PsiDirectoryNode" />
-              <item name="image" type="462c0819:PsiDirectoryNode" />
+              <item name="爬虫" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -117,7 +613,17 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\learnpython\爬虫\qq空间" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\learnpython\游戏-贪吃蛇\img" />
+      <recent name="E:\python\learnpython\爬虫\qq空间" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -131,21 +637,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.20190506">
-    <configuration name="游戏" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.TaoBaoGoods">
+    <configuration name="爬取大学排名" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/../python/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏/game.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/爬取大学排名.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +659,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="20190506" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="learnpython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,12 +667,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏-打飞机" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏/20190506.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏-打飞机/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TaoBaoGoods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/TaoBaoGoods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬取空间说说" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬虫/qq空间" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/qq空间/爬取空间说说.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,10 +744,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="game (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏-贪吃蛇" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏-贪吃蛇/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="game" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="learnpython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/游戏-打飞机" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/游戏-打飞机/game.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.game" />
+      <item itemvalue="Python.1" />
+      <item itemvalue="Python.game (1)" />
+      <item itemvalue="Python.爬取大学排名" />
+      <item itemvalue="Python.TaoBaoGoods" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.20190506" />
-        <item itemvalue="Python.游戏" />
+        <item itemvalue="Python.TaoBaoGoods" />
+        <item itemvalue="Python.爬取大学排名" />
+        <item itemvalue="Python.game (1)" />
+        <item itemvalue="Python.game" />
+        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,15 +824,14 @@
     <option name="totallyTimeSpent" value="8405000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="-4" width="1309" height="773" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15482841" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1532738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14611872" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" weight="0.21931261" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -242,8 +839,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5014881" side_tool="true" weight="0.31423897" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -278,47 +875,219 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learnpython$20190506.coverage" NAME="20190506 Coverage Results" MODIFIED="1557148143371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/游戏" />
     <SUITE FILE_PATH="coverage/learnpython$.coverage" NAME="游戏 Coverage Results" MODIFIED="1557141345680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/游戏" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/20190415/聊天机器人.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/20190415/聊天机器人.py" />
     <entry file="file:///usr/lib/python3.5/site-packages/pygame/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/20190415/特殊好友.py">
+    <entry file="file://$PROJECT_DIR$/20190415/特殊好友.py" />
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/20190506.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="480">
+          <caret line="275" column="13" lean-forward="true" selection-start-line="275" selection-start-column="13" selection-end-line="275" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/游戏/game.py">
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/20190429.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3116">
-          <caret line="167" column="9" selection-start-line="167" selection-start-column="9" selection-end-line="167" selection-end-column="9" />
-          <folding>
-            <element signature="e#64#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/游戏/20190429.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
+        <state relative-caret-position="257">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/游戏/20190506.py">
+    <entry file="file://$PROJECT_DIR$/向微信好友发送信息/向微信助手发你好.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="280" column="32" selection-start-line="280" selection-start-column="32" selection-end-line="280" selection-end-column="32" />
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/qq空间/爬取空间说说.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="43" column="63" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/qq空间/791381705.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/qq空间/user.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/qq空间/1422247276.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习/KNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏2/7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏2/僵尸移动.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2116">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏2/农夫吃苹果.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/resplane/image/background.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-贪吃蛇/img/snake.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-538">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="92" column="26" lean-forward="true" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-287100998/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="3648" column="8" selection-start-line="3648" selection-start-column="8" selection-end-line="3648" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-打飞机/20190513.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="256" column="35" lean-forward="true" selection-start-line="256" selection-start-column="35" selection-end-line="256" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python/Lib/site-packages/pygame/sprite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="1376" selection-start-line="1376" selection-end-line="1376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/游戏-贪吃蛇/game.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <marker date="1560348863782" expanded="true" signature="783:1766" ph="..." />
+            <marker date="1560348863782" expanded="true" signature="2434:2529" ph="..." />
+            <marker date="1560348863782" expanded="true" signature="4632:4833" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬取球员数据排名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-308">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爱情公寓.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬虫介绍">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬取爱情公寓的评论.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/spriderLaGouData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/spriderLagouParse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/爬取大学排名.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬虫/TaoBaoGoods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#69#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

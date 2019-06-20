@@ -46,11 +46,12 @@ def printNeiRong(ls):
         print('%-5s%-15s%-10s%-5s'%(s[0], s[1], s[2], s[3]))
 
 
-def main():
+def main(url):
     ls = [] #存储信息
-    url = r'http://www.zuihaodaxue.cn/ARWU2018.html'
+    # 世界100强大学的网址
     bestschools = getHtmlText(url)
     cunNeiRong(ls,bestschools)
     printNeiRong(ls)
 
-main()
+main(r'http://www.zuihaodaxue.cn/ARWU2018.html')
+main(r'http://www.zuihaodaxue.cn/Greater_China_Ranking2018_0.html')

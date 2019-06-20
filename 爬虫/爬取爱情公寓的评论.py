@@ -8,7 +8,7 @@ def get_one_page(url) :
     response = requests.get(url=url);
     if response.status_code == 200:
         return  response.text;
-    return Null;
+    return '';
 
 #解析每一页数据
 def parse_one_page(html):
